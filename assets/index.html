@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="stylesheet" href="../CSS/style1.css">
+    <title>Zing mp3</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+    <div id="background">
+    </div>
+    <div class="zing-main">
+        <div class="zing-sidebar">
+            <div class="zing-logo">
+                <img src="https://sona7ns.github.io/zingmp3.vn/assets/img/sidebar-icon/logo/logo-dark.svg" alt="">
+            </div>
+            <ul class="zing-sidebar-menu">
+                <li>
+                    <a href="#mymusic">
+                        <i class="fa-solid fa-play"></i>
+                        <span>Cá nhân</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#khampha">
+                        <i class="fa-solid fa-compact-disc"></i>
+                        <span>Khám phá</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#zingchart">
+                        <i class="fa-solid fa-chart-line"></i>
+                        <span>#zingchart</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#radio">
+                        <i class="fa-solid fa-radio"></i>
+                        <span>Radio</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#theodoi">
+                        <i class="fa-solid fa-rectangle-list"></i>
+                        <span>Theo dõi</span>
+                    </a>
+                </li>
+            </ul>
+            <ul class="zing-sidebar-menu">
+                <li>
+                    <a href="#nhacmoi">
+                        <i class="fa-sharp fa-solid fa-music"></i>
+                        <span>Nhạc mới</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#theloai">
+                        <i class="fa-solid fa-indent"></i>
+                        <span>Thể loại</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#top-music">
+                        <i class="fa-solid fa-star"></i>
+                        <span>Top 100</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#mv">
+                        <i class="fa-solid fa-tv"></i>
+                        <span>MV</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="content">
+            <div class="content-header">
+                <div class="content-header-left">
+                    <div class="action-btn">
+                        <button>
+                            <i class="fa-solid fa-arrow-left"></i>
+                        </button>
+                        <button>
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </button>
+                    </div>
+                    <div class="header-search">
+                        <input type="text" placeholder="Tìm kiếm bài hát, nghệ sĩ, lời bài hát">
+                    </div>
+                </div>
+                <div class="content-header-right">
+                    <div>
+                        <i class="fa-solid fa-shirt"></i>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-upload"></i>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-gear"></i>
+                    </div>
+                    <div>
+                        <i class="fa-regular fa-user"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="content-item" id="mymusic">
+                <div class="mymusic-title">
+                    <h3>Thư viện</h3>
+                    <div>
+                        <i class="fa-solid fa-play"></i>
+                    </div>
+                </div>
+                <div class="playlist">
+                    <div class="album-wrap">
+                        <div class="album-title">
+                            <div>
+                                <h3>PLAYLIST</h3>
+                                <span class="add-btn">+</span>
+                            </div>
+                            <div class="view-more">
+                                <h3>TẤT CẢ</h3>
+                                <span>></span>
+                            </div>
+                        </div>
+                        <div class="album-content">
+                        </div>
+                    </div>
+                    <div class="media-container">
+                        <ul class="navbar-menu">
+                            <li class="active">BÀI HÁT</li>
+                            <li>POSTCAST</li>
+                            <li>ALBUM</li>
+                            <li>MV</li>
+                        </ul>
+                        <div class="content-playlist">
+                            <div class="content-playlist-title">
+                                <span class="media-left">BÀI HÁT</span>
+                                <span class="media-content">ALBUM</span>
+                                <span class="media-right">THỜI GIAN</span>
+                            </div>
+                            <div class="play-list__info-wrap">
+                                <h3>Chưa có bài hát nào</h3>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="content-item" id="khampha">Khám phá</div>
+            <div class="content-item" id="zingchart">Zing chart</div>
+            <div class="content-item" id="radio">Radio</div>
+            <div class="content-item" id="theodoi">Theo dõi</div>
+            <div class="content-item" id="nhacmoi">Nhạc mới</div>
+            <div class="content-item" id="theloai">Thể loại</div>
+            <div class="content-item" id="top-music">
+                <div class="container">
+                </div>
+            </div>
+            <div class="playlist-detail">
+                <div class="container">
+                    <div class="playlist-detail-info">
+                    </div>
+                    <div class="playlist-songs">
+                        <p class="playlist-title">
+                        </p>
+                        <div class="playlist-wrap">
+                            <div class="playlist-header">
+                                <span class="media-left">BÀI HÁT</span>
+                                <span class="media-center">ALBUM</span>
+                                <span class="media-right">THỜI GIAN</span>
+                            </div>
+                            <div class="playlist-content">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="play-list">
+        <div class="play-list__header">
+            <div class="tab-bar">
+                <div class="tab-bar__item active">
+                    <span>Danh sách phát</span>
+                </div>
+                <div class="tab-bar__item">
+                    <span>Nghe gần đây</span>
+                </div>
+            </div>
+            <div class="btn-wrap">
+                <button class="btn-action btn-clock">
+                    <i class="fa-solid fa-clock"></i>
+                </button>
+                <button class="btn-action">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </div>
+        </div>
+        <div class="play-list-wrap active">
+        </div>
+        <div class="play-list-wrap">
+            <h4>Không có bài hát nào nghe gần đây</h4>
+
+        </div>
+    </div>
+    <div class="play-controler">
+        <div class="alarm-countdown">
+            <span>Nhạc sẽ dừng sau:</span>
+            <div class="countdown"></div>
+            <button>
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+        </div>
+        <div class="play-controler__info">
+            <img src="" alt="ảnh bài hát">
+            <div class="play-controler__info-content">
+                <span class="name-song">Name song</span>
+                <span class="name-singer">Name singer</span>
+            </div>
+            <div class="btn-wrap">
+                <button class="btn-action like-btn">
+                    <i class="fa-solid fa-heart"></i>
+                </button>
+                <button class="btn-action viewmore-btn">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </div>
+        </div>
+        <div class="player-controls__player-bar">
+            <div class="btn-wrap">
+                <button class="btn-action random-btn" selected='false'>
+                    <i class="fa-solid fa-shuffle"></i>
+                </button>
+                <button class="btn-action prev-btn">
+                    <i class="fa-solid fa-backward-step"></i>
+                </button>
+                <button class="btn-action play-btn">
+                    <i class="fa-solid fa-play"></i>
+                    <!-- <i class="fa-solid fa-pause"></i> -->
+                </button>
+                <button class="btn-action next-btn">
+                    <i class="fa-solid fa-forward-step"></i>
+                    <div class="nextsong-info">
+                        <h4>Phát tiếp theo</h4>
+                        <div>
+                            <img src="../src/image/songImg/changkhothuychung.png" alt="">
+                            <div>
+                                <p class="name-song">Tên bài hát Tên bài hát tên bài hát tên bài hát</p>
+                                <p class="name-singer">Tên ca sĩ</p>
+                            </div>
+                        </div>
+                    </div>
+                </button>
+                <button class="btn-action playback-btn">
+                    <i class="fa-solid fa-arrows-rotate"></i>
+                </button>
+            </div>
+            <div class="progress">
+                <div class="time">
+                    <span class="current-time">00:00</span>
+                    <span class="total-time">00:00</span>
+                </div>
+                <div class="progress-wrap">
+                    <div class="progress-bar"></div>
+                    <div class="progress-circle"></div>
+                </div>
+            </div>
+        </div>
+        <div class="play-controler__action">
+            <button class="btn-action btn-mv">
+                <i class="fa-solid fa-compact-disc"></i>
+            </button>
+            <button class="btn-action btn-lyric">
+                <i class="fa-solid fa-microphone"></i>
+            </button>
+            <button class="btn-action btn-screen">
+                <i class="fa-solid fa-display"></i>
+            </button>
+            <div class="vol-control">
+                <button class="btn-action btn-vol">
+                    <i class="fa-solid fa-bell"></i>
+                </button>
+                <div class="vol">
+                    <div></div>
+                </div>
+            </div>
+            <button class="btn-playlist">
+                <i class="fa-solid fa-list-ul"></i>
+            </button>
+        </div>
+    </div>
+
+    <div class="lyric">
+        <div class="lyric-header">
+            <div class="container">
+                <div class="left">
+                    <div>
+                        <img src="https://zjs.zmdcdn.me/zmp3-desktop/dev/119956/static/media/icon_zing_mp3_60.f6b51045.svg"
+                            alt="">
+                    </div>
+                </div>
+                <ul class="tab">
+                    <li>Danh sách phát</li>
+                    <li class="active">Karaoke</li>
+                    <li>Lời bài hát</li>
+                </ul>
+                <div class="actions">
+                    <div class="setting">
+                        <i class="fa-solid fa-gear"></i>
+                    </div>
+                    <div class="close">
+                        <i class="fa-solid fa-chevron-down"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- <div class="lyric-body">
+            <div class="img-song">
+                <img src="../src/image/songImg/xinloinguoianhyeu.png" alt="">
+            </div>
+            <div class="wrap">
+                <div class="song-info">
+                    <div class="name-song">Name song</div>
+                    <div class="name-singer">Name singer</div>
+                </div>
+                <div class="sentence"></div>
+                <div class="sentence"></div>
+                <div class="sentence"></div>
+                <div class="sentence"></div>
+                <div class="sentence"></div>
+            </div>
+        </div> -->
+        <div class="karaoke">
+            <div class="song-info">
+                <div class="name-song">Name song</div>
+                <div class="name-singer">Name singer</div>
+            </div>
+            <div class="lyric-wrap">
+                <div class="sentence"><span>Có</span><span>lẽ</span><span>anh</span><span>và</span><span>em</span></div>
+                <div class="sentence"><span>Có</span><span>lẽ</span><span>anh</span><span>và</span><span>em</span></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal">
+        <div class="modal-overlay"></div>
+        <div class="modal-body">
+            <div class="modal-inner">
+                <!-- Alarm  -->
+                <div class="alarm-setting">
+                    <h2 class="title">Hẹn giờ dừng phát nhạc</h2>
+                    <div class="time-picker">
+                        <div class="time-input">
+                            <input type="text" maxlength="2" placeholder="00" class="hour">
+                            <label for="">Giờ</label>
+                        </div>
+                        <div class="dot">:</div>
+                        <div class="time-input">
+                            <input type="text" maxlength="2" placeholder="00" class="min">
+                            <label for="">Phút</label>
+                        </div>
+                    </div>
+                    <p class="subtitle">Chọn thời gian để dừng phát nhạc</p>
+                    <button class="save-btn" disabled>Lưu lại</button>
+                    <button class="cancel-btn">Hủy</button>
+                </div>
+
+                <div class="add-album">
+                    <h2 class="title">Tạo playlist mới</h2>
+                    <input type="text" placeholder="Nhập tên playlist">
+                    <button class="submit">Tạo mới</button>
+                    <button class="close">
+                        <i class="fa-solid fa-xmark"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="toast-message">
+
+    </div>
+    <script src="../src/module/app.js" type="module"></script>
+    <script src="../src/module/test.js"></script>
+</body>
+
+</html>
